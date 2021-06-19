@@ -1,0 +1,72 @@
+@import "bootstrap/bootstrap";
+
+
+//* white: #FFFFFF
+
+//* light: #F7F7F7
+//* gray: #858377
+//* dark: #000027
+
+//* gray-200: #E5E5E5
+//* gray-300: #E8E8DB
+//* gray-400: #999999
+
+
+//* gray-600: #636057
+//* gray-700: #494846
+//* gray-800: #373A3C
+
+
+//* "primary": #FFDF65
+//* "secondary": #FF785E
+.ff-noto {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.ff-baloo {
+    font-family: 'Baloo Tamma 2', 'Noto Sans TC', sans-serif;
+}
+.btn-secondary-hover:hover {
+    color: #FFFFFF !important;
+    background-color: #FF785E;
+    border-color: #FF785E;
+}
+.btn-primary-hover:hover {
+    color: #858377;
+    background-color: #FFDF65;
+    border-color: #FFDF65;
+}
+.btn-primary-hover:hover>svg {
+    color: #FF785E;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.25em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.nav-link.active {
+    color: #636057 !important;
+    font-weight: bold;
+    border-bottom:2px solid #FFDF65;
+}
+.icon-1{
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+}
+.icon-2{
+    width: 24px !important;
+    height: 24px !important;
+    line-height: 24px !important;
+}
+.icon-3{
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #494846 !important;
+}
